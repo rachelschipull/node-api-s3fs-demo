@@ -4,8 +4,6 @@ const fs = require('@cyclic.sh/s3fs')
 
 const app = express()
 
-const fs = require('fs')
-
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
