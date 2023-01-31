@@ -1,6 +1,6 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-const fs = require('@cyclic.sh/s3fs')
+const fs = require('@cyclic.sh/s3fs')(process.env.CYCLIC_BUCKET_NAME)
 
 const app = express()
 
