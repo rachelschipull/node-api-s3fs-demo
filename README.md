@@ -1,3 +1,3 @@
 ## Set up for s3fs demo
 
-Don't look now, look later.
+A trial repo for the S3fs demo.
